@@ -1,0 +1,32 @@
+Row(
+            // mainAxisSize: MainAxisSize.min,
+            verticalDirection: VerticalDirection
+                .up, // vertical direction ko upar neche krta hai up means neeche se uppar aur down means uppar se neeche
+            crossAxisAlignment: CrossAxisAlignment
+                .stretch, // horizontal axis ko dekhta hai start pe chipke hone chahiye ya end pe
+            mainAxisAlignment: MainAxisAlignment
+                .start, // main axis pe containers ko uppar neeche krta hai
+            // mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                height: 100.0,
+                width: 100.0,
+                // margin: EdgeInsets.only(left: 50.0),
+                // padding: EdgeInsets.all(30.0),
+                color: Colors.white,
+                child: Text("Container 1"),
+              ),
+              Container(
+                height: 100.0,
+                width: 100.0,
+                color: Colors.lightGreenAccent,
+                child: Text("Container 2"),
+              ),
+              Container(
+                height: 100.0,
+                width: 100.0,
+                color: Colors.red,
+                child: Text("Container 3"),
+              ),
+            ],
+          ),
